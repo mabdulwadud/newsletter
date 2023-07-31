@@ -1,0 +1,47 @@
+<%- include("partials/header") -%>
+    <div class="row d-flex align-items-center bg-white">
+        <!-- Sign-up form start -->
+        <div class="col-lg-6">
+            <div class="container">
+                
+                <div class="container pad">
+                    <h1 class="title-text mb-3 text-start">Stay updated!</h1>
+                    <div class="col mb-3 text-start">
+                        
+                        <p>Join 60,000+ product managers receiving monthly updates on:</p>
+                    
+                    </div>
+                    <!-- ticks -->
+                    <div class="col mb-1">
+                        <p><span class="me-3"><img src="/images/icon-list.svg" alt=""></span>Product discovery and building what matters</p>
+                    </div>
+                    <div class="col mb-1">
+                        <p><span class="me-3"><img src="/images/icon-list.svg" alt=""></span>Measuring to ensure updates are a success</p>
+                    </div>
+                    <div class="col mb-1">
+                        <p><span class="me-3"><img src="/images/icon-list.svg" alt=""></span>And much more!</p>
+                    </div>  
+                <!-- Form -->
+                <form class="mt-5" action="/home" method="post" name="newsletterSignup">
+                    <div class="mb-3">
+                        <label for="formInput" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="formInput" placeholder="name@example.com" required>
+                    </div>
+                    <div class="mb-3">
+                        <button class="btn btn-primary-custom" type="submit">Subscribe to monthly newsletter</button>
+                    </div>
+                </form>
+                </div>
+                
+
+            </div>
+        </div>
+        <!-- Sign-up form end -->
+        <!-- Image -->
+        <div class="text-center col-lg-6 pad">
+            <img src="/images/illustration-sign-up-desktop.svg" alt="">
+        </div>
+    </div>
+
+
+    <%- include("partials/footer") -%>
